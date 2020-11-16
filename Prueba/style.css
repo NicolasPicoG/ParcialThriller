@@ -1,0 +1,22 @@
+html,
+body {
+  background: #aeaeae;
+  background: black;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.button {
+  position: fixed;
+  top: 20px;
+  right: 30px;
+  outline: none;
+  border: none;
+  background: none;
+  width: 50px;
+  z-index: 100;
+}
+.button svg {
+  width: 100%;
+  fill: white;
+}
