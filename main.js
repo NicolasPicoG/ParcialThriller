@@ -125,11 +125,11 @@ class LoadModelDemo {
     const loader = new THREE.CubeTextureLoader();
     const texture = loader.load([
       './recursos/img/1.png',
-      './recursos/img/2.png',
-      './recursos/img/3.png',
-      './recursos/img/4.png',
-      './recursos/img/5.png',
-      './recursos/img/6.png',
+      './recursos/img/1.png',
+      './recursos/img/1.png',
+      './recursos/img/1.png',
+      './recursos/img/1.png',
+      './recursos/img/1.png',
     ]);
     this._scene.background = texture;
 
