@@ -146,7 +146,8 @@ class LoadModelDemo {
     this._LoadAnimatedModel();
     this._LoadAnimatedModelAndPlay(
       './recursos/fbx/', 'principal.fbx', 'principal.fbx', new THREE.Vector3(0, -1.5, 5));
-
+      this._LoadAnimatedModelAndPlay(
+        './recursos/fbx/', 'principal.fbx', 'principal.fbx', new THREE.Vector3(-12, 0, -10));
     this._RAF();
   }
 
