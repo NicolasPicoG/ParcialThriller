@@ -1,0 +1,9 @@
+body {
+  width: 10%;
+  height: 1%;
+  position: absolute;
+  background: #000000;
+  margin: 0;
+  padding: 0;
+  overscroll-behavior: none;
+}
