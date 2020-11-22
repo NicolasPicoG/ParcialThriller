@@ -28,7 +28,7 @@ class zombie {
     const near = 1.0;
     const far = 1000.0;
     this._camera = new THREE.PerspectiveCamera(fov, aspect, near, far);
-    this._camera.position.set(40, 5, 30);
+    this._camera.position.set(0, 5, 100);
 
     this._scene = new THREE.Scene();
 
@@ -83,11 +83,11 @@ class zombie {
     this._previousRAF = null;
 
     this._LoadAnimatedModelAndPlay(
-      './recursos/fbx/', 'principal.fbx', 'principal.fbx', new THREE.Vector3(-12, 0, -10));
+      './recursos/fbx/', 'principal.fbx', 'principal.fbx', new THREE.Vector3(0, 0, -70));
       this._LoadAnimatedModelAndPlay(
-        './recursos/fbx/', 'principal.fbx', 'principal.fbx', new THREE.Vector3(12, 0, -10));
+        './recursos/fbx/', 'principal.fbx', 'principal.fbx', new THREE.Vector3(-20, 0, -90));
         this._LoadAnimatedModelAndPlay(
-          './recursos/fbx/', 'principal.fbx', 'principal.fbx', new THREE.Vector3(5, 0, -10));
+          './recursos/fbx/', 'principal.fbx', 'principal.fbx', new THREE.Vector3(20, 0, -90));
     this._RAF();
   }
 
@@ -95,7 +95,7 @@ class zombie {
     const loader = new FBXLoader();
     loader.setPath(path);
     loader.load(modelFile, (fbx) => {
-      fbx.scale.setScalar(0.1);
+      fbx.scale.setScalar(0.5);
       fbx.traverse(c => {
         c.castShadow = true;
       });
