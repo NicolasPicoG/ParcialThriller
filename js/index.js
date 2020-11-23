@@ -88,6 +88,9 @@ class zombie {
       './recursos/fbx/', 'zombie1.fbx', 'zombie1.fbx', new THREE.Vector3(-20, 0, -90));
     this._LoadAnimatedModelAndPlay(
       './recursos/fbx/', 'zombie1.fbx', 'zombie1.fbx', new THREE.Vector3(0, 0, -90));
+
+     /* Se pueden agregar mas personajes pero queda muy pesado le proyecto parala correcta reproducción*/ 
+      /*
     this._LoadAnimatedModelAndPlay(
       './recursos/fbx/', 'zombie1.fbx', 'zombie1.fbx', new THREE.Vector3(20, 0, -90));
     this._LoadAnimatedModelAndPlay(
@@ -100,7 +103,7 @@ class zombie {
       './recursos/fbx/', 'zombie1.fbx', 'zombie1.fbx', new THREE.Vector3(40, 0, -110));
     this._LoadAnimatedModelAndPlay(
       './recursos/fbx/', 'zombie1.fbx', 'zombie1.fbx', new THREE.Vector3(-40, 0, -110));
-
+*/
 
     this._RAF();
   }
