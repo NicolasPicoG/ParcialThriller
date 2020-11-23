@@ -83,11 +83,25 @@ class zombie {
     this._previousRAF = null;
 
     this._LoadAnimatedModelAndPlay(
-      './recursos/fbx/', 'principal.fbx', 'principal.fbx', new THREE.Vector3(0, 0, -70));
-      this._LoadAnimatedModelAndPlay(
-        './recursos/fbx/', 'principal.fbx', 'principal.fbx', new THREE.Vector3(-20, 0, -90));
-        this._LoadAnimatedModelAndPlay(
-          './recursos/fbx/', 'principal.fbx', 'principal.fbx', new THREE.Vector3(20, 0, -90));
+      './recursos/fbx/', 'zombie1.fbx', 'zombie1.fbx', new THREE.Vector3(0, 0, -70));
+    this._LoadAnimatedModelAndPlay(
+      './recursos/fbx/', 'zombie1.fbx', 'zombie1.fbx', new THREE.Vector3(-20, 0, -90));
+    this._LoadAnimatedModelAndPlay(
+      './recursos/fbx/', 'zombie1.fbx', 'zombie1.fbx', new THREE.Vector3(0, 0, -90));
+    this._LoadAnimatedModelAndPlay(
+      './recursos/fbx/', 'zombie1.fbx', 'zombie1.fbx', new THREE.Vector3(20, 0, -90));
+    this._LoadAnimatedModelAndPlay(
+      './recursos/fbx/', 'zombie1.fbx', 'zombie1.fbx', new THREE.Vector3(-20, 0, -110));
+    this._LoadAnimatedModelAndPlay(
+      './recursos/fbx/', 'zombie1.fbx', 'zombie1.fbx', new THREE.Vector3(0, 0, -110));
+    this._LoadAnimatedModelAndPlay(
+      './recursos/fbx/', 'zombie1.fbx', 'zombie1.fbx', new THREE.Vector3(20, 0, -110));
+    this._LoadAnimatedModelAndPlay(
+      './recursos/fbx/', 'zombie1.fbx', 'zombie1.fbx', new THREE.Vector3(40, 0, -110));
+    this._LoadAnimatedModelAndPlay(
+      './recursos/fbx/', 'zombie1.fbx', 'zombie1.fbx', new THREE.Vector3(-40, 0, -110));
+
+
     this._RAF();
   }
 
