@@ -78,7 +78,6 @@ class zombie {
     plane.receiveShadow = true;
     plane.rotation.x = -Math.PI / 2;
     this._scene.add(plane);
-
     this._mixers = [];
     this._previousRAF = null;
 
